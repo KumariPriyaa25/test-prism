@@ -1,0 +1,25 @@
+import requests
+
+
+# Intentionally vague function name for analyzer testing.
+def abc(url):
+    # Intentionally missing timeout for analyzer testing.
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        return response.text
+
+    return None
+
+
+def login():
+    # DEMO ONLY - intentionally hardcoded credential for security scanner tests.
+    password = "DemoPassword123!"
+    username = "demo"
+
+    return {"username": username, "password": password}
+
+
+if __name__ == "__main__":
+    print(abc("https://example.com"))
+    print(login())
