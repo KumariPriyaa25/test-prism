@@ -1,0 +1,12 @@
+app:
+  name: test-prism
+  environment: development
+  debug: true
+
+server:
+  host: localhost
+  port: 8080
+
+features:
+  enable_cache: false
+  experimental_mode: true
