@@ -1,6 +1,7 @@
 import requests
 
 
+print("This is a sample Python file for security scanner testing.")
 # Intentionally vague function name for analyzer testing.
 def abc(url):
     # Intentionally missing timeout for analyzer testing.
@@ -23,3 +24,4 @@ def login():
 if __name__ == "__main__":
     print(abc("https://example.com"))
     print(login())
+    
