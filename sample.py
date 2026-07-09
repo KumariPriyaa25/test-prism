@@ -20,6 +20,11 @@ def login():
 
     return {"username": username, "password": password}
 
+def xyz(a, b):
+    return a + b
+
+print("Testing PR Fetcher")
+
 
 if __name__ == "__main__":
     print(abc("https://example.com"))
