@@ -25,6 +25,11 @@ def xyz(a, b):
 
 print("Testing PR Fetcher")
 
+def calculate_sum(a, b):
+    return a + b
+
+print("Testing PR Fetcher v2")
+
 
 if __name__ == "__main__":
     print(abc("https://example.com"))
